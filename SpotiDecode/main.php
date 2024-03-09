@@ -17,7 +17,7 @@
                 <h2>Introduction</h2>
                 <br>
                 <p>Welcome to SpotiDecode! A web application for decoding your streaming history data!</p>
-                <p>From the data you can request, you can get all sorts of information! Like how many hours you were listening on your Spotify account since its creation, your all time most listened song and all time favourite artist!</p>
+                <p>From the data you can request, you can get all sorts of information! Like how many hours you were listening on your Spotify account since its creation, your all time most listened song and all time most listened to artist!</p>
                 <br>
                 <h2>How to use?</h2>
                 <br>
