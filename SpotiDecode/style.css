@@ -1,0 +1,119 @@
+@font-face {
+    font-family: 'CircularSpotify';
+    src: url("http://localhost/SpotiDecode/resources/spotifyfont.otf") format('opentype');
+}
+
+
+* {
+    margin: 0;
+}
+
+html {
+    font-family: "CircularSpotify";
+    height: 100%;
+    width: 100%;
+    background-color: rgb(18, 18, 18);
+    color: white;
+    font-size: small;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(33, 33, 33);
+    color: rgb(29, 185, 84);
+
+}
+
+h1 {
+    margin: auto;
+    font-size: xx-large;
+}
+
+#fileSpace {
+    margin: 10px;
+    background-color: transparent;
+    width: 100%;
+    height: 30vh;
+}
+
+#flex {
+    display: flex;
+}
+
+#left-sidebar {
+    margin: 10px;
+    width: 20%;
+    height: 75vh;
+    border: 2px solid rgb(33, 33, 33);
+    background-color: rgb(33, 33, 33);
+    border-radius: 7px;
+}
+
+#right-sidebar {
+    margin: 10px;
+    margin-left: 30px;
+    height: 75vh;
+    width: 20%;
+    border: 2px solid rgb(33, 33, 33);
+    background-color: rgb(33, 33, 33);
+    border-radius: 7px;
+}
+
+#output {
+    margin: 10px;
+    width: 100%;
+    height: 42.4vh;
+    border: 2px solid rgb(33, 33, 33);
+    background-color: rgb(33, 33, 33);
+    border-radius: 7px;
+}
+
+#capsule {
+    width: 60%;
+    margin: 10px;
+}
+
+footer {
+    width: 99%;
+    margin: 10px;
+    margin-top: 0;
+    height: 9vh;
+    background-color: rgb(33, 33, 33);
+    border-radius: 7px;
+}
+
+#fileToUpload {
+    display: none;
+}
+
+#uploadText {
+    width: fit-content;
+    padding: 25px;
+    margin: auto;
+    margin-top: 11vh;
+    border: 2px solid rgb(29, 185, 84);
+    border-radius: 7px;
+    color: rgb(29, 185, 84);
+    font-size: x-large;
+}
+
+#uploadText:hover {
+    cursor: pointer;
+    color: rgb(33, 33, 33);
+    background-color: rgb(29, 185, 84);
+    transition-duration: 0.2s;
+}
+
+#fileLabel {
+    height: 30vh;
+    width: 100%;
+    display: flex;
+}
+section{
+    margin: 10px;
+}
+.specialText{
+    color: rgb(29, 185, 84);
+}
